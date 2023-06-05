@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <title>Destinator </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <!-- Header -->
+        <section class="header">
+            <!-- Div do menu -->
+            <nav>
+                <!-- Logotipo -->
+                <div class="logo">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <!-- menu -->
+                <ul class="menu">
+                    <div class="item">
+                        <div class="icon"><img src="./assets/icons/bag.png" alt=""></div>
+                        <li>Pacotes</li>
+                    </div>
+                    <div class="item">
+                        <div class="icon"><img src="./assets/icons/plane.png" alt=""></div>                        
+                        <li>Passagens</li>
+                    </div>
+                    <div class="item">
+                        <div class="icon"><img src="./assets/icons/boat.png" alt=""></div>                        
+                        <li>Cruzeiros</li>
+                    </div>
+                    <div class="item">
+                        <div class="icon"><img src="./assets/icons/bed.png" alt=""></div>                        
+                        <li>Hotéis</li>
+                    </div>
+                    <div class="item">
+                        <div class="icon"><img src="./assets/icons/car.png" alt=""></div>                        
+                        <li>Carros</li>
+                    </div>
+
+                </ul>
+                <!-- Login -->
+                <div class="login">
+                    <div class="icon_login">
+                        <img src="./assets/icons/icon_login.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Login</h2>
+                    </div>
+                </div>
+            </nav>
+            <!-- Div de busca -->
+            <div class="buscar">
+                <!-- Titulo -->
+                <h1>Encontre seu destino</h1>
+                <!-- Box -->
+                <div class="buscar_destino">
+                    <div  class="elementos">
+                        <!-- Select 1 -->
+                        <div>
+                            <p class="select">Selecione:</p>
+                            <div class="box_wrapper">
+                                <div class="icon_box">
+                                    <img src="./assets/icons/loc.png" alt="">
+                                    <input type="input" class="text_box" placeholder="Origem" required />
+                                    
+                                </div>
+                                <div>
+                                <img class="line" src="./assets/Line 2.png" alt="">
+                                </div>
+                                <div class="icon_box">
+                                    <img src="./assets/icons/loc.png" alt="">
+                                    <input type="input" class="text_box" placeholder="Destino" required />
+                                </div>
+                            </div>
+                        </div>
+                            <!-- Select 2 -->
+                        <div>
+                            <p class="select">Selecione:</p>
+                            <div class="box_wrapper">
+                                <div class="icon_box">
+                                    <img src="./assets/icons/calendar.png" alt="">
+                                    <input type="input" class="text_box" placeholder="Data de Ida" required />
+                                    
+                                </div>
+                                <div>
+                                <img class="line" src="./assets/Line 2.png" alt="">
+                                </div>
+                                <div class="icon_box">
+                                    <img src="./assets/icons/calendar.png" alt="">
+                                    <input type="text" class="text_box" placeholder="Data de Volta" required />
+                                </div>
+                            </div>
+                        </div> 
+
+                            <!-- Select 3 -->
+                            
+                        <div>
+                            <p class="select">Selecione:</p>
+                            <div class="box_wrapper">
+                                <div class="icon_box">
+                                    <img src="./assets/icons/bed2.png" alt="">
+                                    <input type="input" class="text_box" placeholder="Quartos" required />
+                                    
+                                </div>
+                                <div>
+                                <img class="line" src="./assets/Line 2.png" alt="">
+                                </div>
+                                <div class="icon_box">
+                                    <img src="./assets/icons/group.png" alt="">
+                                    <input type="input" class="text_box" placeholder="Viajantes" required />
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dib da seta -->
+            <div class="seta">
+                <div>
+                    <h1>Confira as promoções de hotéis!</h1>
+
+                </div>
+                <div>
+                    <a href="#pac_viagem">
+                        <img id="seta" src="./assets/seta.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pac_viagem" id="pac_viagem">
+            <div class="pac_title">
+                <img style="width: 3rem; margin-right: 1rem;" src="./assets/bag2.png" alt="">
+                <h1 style="display: inline;">Pacotes de viagem</h1>   
+                <div>
+                    <p>Confira os pacotes de viagens nacionais e internacionais</p>          
+                </div> 
+            </div>
+            <div class="btn prev" id="prev">&laquo;</div>
+            <div class="container_itens"></div>
+            <div class="btn next" id="next">&raquo;</div>
+        </section>
+
+
+
+        <section class="pass_aerea"></section>
+        <section class="hoteis_promo"></section>
+        <section class="parceiros"></section>
+        <section class="forma_pag"></section>
+        <section class="suporte"></section>
+
+
+
+         
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html> 
